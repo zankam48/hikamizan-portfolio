@@ -1,0 +1,19 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#canvas-container {
+  width: 100%;
+  height: 400px; /* or 100vh */
+  position: relative;
+}
+
+#tech-animation canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+
