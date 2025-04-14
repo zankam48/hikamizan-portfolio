@@ -18,10 +18,10 @@ const About = ({ darkMode }) => {
             
             <div className="md:w-2/3 md:pl-12">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                <span className={darkMode ? "text-blue-400" : "text-blue-600"}>Muhamamd Mizanul Hikam</span>
+                <span className={darkMode ? "text-blue-400" : "text-blue-600"}>Muhammad Mizanul Hikam</span>
               </h1>
               <h2 className="text-xl md:text-2xl mb-6 text-gray-400">
-                Robotic, Computer Vision, and Backend Engineer passionate....
+                I Love Math, Engineering, Robotic, Computer Vision and Software Development
               </h2>
               
               <p className="text-lg mb-6">
@@ -92,7 +92,7 @@ const About = ({ darkMode }) => {
                 <div className="ml-4">
                   <h4 className="font-semibold">Electronics and Instrumentation</h4>
                   <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Aug 2019 - May 2024</p>
-                  <p>Universitas Gadjah Mada, Yogyakarta - GPA 3.65</p>
+                  <p>Gadjah Mada University, Yogyakarta - GPA 3.60</p>
                 </div>
               </div>
             </div>

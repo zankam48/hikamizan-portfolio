@@ -41,7 +41,7 @@ const Footer = ({ darkMode }) => {
             </div>
           </div>
           <div className="mt-8 border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
-            © {new Date().getFullYear()} Muhamamd Mizanul Hikam. All rights reserved.
+            © {new Date().getFullYear()} Muhammad Mizanul Hikam. All rights reserved.
           </div>
         </div>
       </footer>
