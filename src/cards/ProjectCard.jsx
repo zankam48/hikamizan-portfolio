@@ -10,7 +10,7 @@ const ProjectCard = ({ project, darkMode }) => {
           {project.confidential && (
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
               <div className="bg-red-600 text-white transform rotate-45 px-20 py-1 text-center text-sm font-bold absolute top-6 -right-14">
-                CONFIDENTIAL
+                NOT-PUBLIC
               </div>
             </div>
           )}

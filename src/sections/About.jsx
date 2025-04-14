@@ -10,7 +10,7 @@ const About = ({ darkMode }) => {
           <div className="flex flex-col md:flex-row items-center mb-12">
             <div className="md:w-1/3 mb-8 md:mb-0 flex justify-center">
               <img 
-                src="/api/placeholder/400/400" 
+                src="/images/ujin.png" 
                 alt="Developer Profile" 
                 className="w-64 h-64 rounded-full object-cover border-4 border-blue-400"
               />
@@ -111,21 +111,32 @@ const About = ({ darkMode }) => {
                   <div className={`w-0.5 h-full ${darkMode ? 'bg-blue-400' : 'bg-blue-600'} ml-0.75 mt-1`}></div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="font-semibold">Backend Dev...</h4>
-                  <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Jul 2024 - Aug 2024</p>
+                  <h4 className="font-semibold">Programmer at Gadjah Mada Flying Object Research Center</h4>
+                  <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Dec 2019 - Dec 2021</p>
                   <p>Yogyakarta, Special Region of Yogyakarta</p>
                 </div>
               </div>
-              <div className="flex items-start">
+              <div className="flex items-start mb-4">
                 <div className="min-w-8 mt-1">
                   <div className={`w-2 h-2 rounded-full ${darkMode ? 'bg-blue-400' : 'bg-blue-600'}`}></div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="font-semibold">Programmer....</h4>
-                  <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Dec 2020 - Dec 2022</p>
+                  <h4 className="font-semibold">Cloud Computing Path Student at Bangkit GOTO</h4>
+                  <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Feb 2022 - Jul 2022</p>
                   <p>Yogyakarta, Special Region of Yogyakarta</p>
                 </div>
               </div>
+              <div className="flex items-start mb-4">
+                <div className="min-w-8 mt-1">
+                  <div className={`w-2 h-2 rounded-full ${darkMode ? 'bg-blue-400' : 'bg-blue-600'}`}></div>
+                </div>
+                <div className="ml-4">
+                  <h4 className="font-semibold">Programmer at Gadjah Mada Flying Object Research Center</h4>
+                  <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Dec 2019 - Dec 2021</p>
+                  <p>Yogyakarta, Special Region of Yogyakarta</p>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>

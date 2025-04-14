@@ -7,7 +7,7 @@ const Footer = ({ darkMode }) => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0 text-center md:text-left">
               <h2 className="text-2xl font-bold mb-2">Hika<span className="text-blue-400">Mizan</span></h2>
-              <p className="text-gray-400">Jack of all trades, master of none.</p>
+              <p className="text-gray-400">An Engineer by Heart ❤️</p>
             </div>
   
             <div className="flex space-x-6 mb-6 md:mb-0">

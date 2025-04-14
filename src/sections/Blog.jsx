@@ -7,7 +7,7 @@ const blogPosts = [
         excerpt: "A beginner-friendly guide to implementing a neural network using basic math and no frameworks.",
         date: "March 15, 2025",
         tags: ["AI", "Neural Network", "Python"],
-        image: "/api/placeholder/600/300"
+        image: "/images/blog/nn.jpg"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const blogPosts = [
         excerpt: "Explore the fundamentals of 3D perspective projection and how it’s used in computer graphics.",
         date: "February 28, 2025",
         tags: ["Graphics", "Math", "3D"],
-        image: "/api/placeholder/600/300"
+        image: "/images/blog/persp.png"
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ const blogPosts = [
         excerpt: "An in-depth look at gRPC, protocol buffers, and how to build high-performance APIs.",
         date: "January 20, 2025",
         tags: ["gRPC", "Backend", "Protocol Buffers"],
-        image: "/api/placeholder/600/300"
+        image: "/images/blog/grpc.png"
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ const blogPosts = [
         excerpt: "Bring your math explanations to life with stunning animations using the Manim library.",
         date: "January 10, 2025",
         tags: ["Manim", "Animation", "Math"],
-        image: "/api/placeholder/600/300"
+        image: "/images/blog/manim.png"
     }
 ];
 

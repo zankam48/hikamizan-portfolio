@@ -6,45 +6,43 @@ const projects = [
         title: "3D Reconstruction",
         description: "3D Reconstruction with Python and Perspective Projection",
         tech: ["Python", "Numpy", "Open3D", "Linear Algebra"],
-        image: "/api/placeholder/600/400"
+        image: "/images/projects/3drec.png"
     },
     {
         id: 2,
         title: "Robotic Arm Simulation Web API",
         description: "Robotic Arm Simulation Web API with .NET and Three.js",
         tech: [".NET", "Three.js", "gRPC", "SignalR", "SQLite"],
-        image: "/api/placeholder/600/400"
+        image: "/images/projects/roboticarm.png"
     },
     {
         id: 3,
         title: "Autonomous Drone",
         description: "Autonomous Drone Project for Gadjah Mada Flying Object Research Center",
         tech: ["Python", "C++", "Ros", "Raspberry Pi", "Linux"],
-        image: "/api/placeholder/600/400"
+        image: "/images/projects/3drec.png",
+        confidential: true
     },
     {
         id: 4,
         title: "ORB-SLAM Python",
         description: "ORB-SLAM Python",
         tech: ["Python"],
-        image: "/api/placeholder/600/400",
-        confidential: true
+        image: "/images/projects/orbslam.jpg",
     },
     {
         id: 5,
         title: "Manim Project",
         description: "Mathematical Animation with Manim",
         tech: ["Python", "Manim", "Matplotlib"],
-        image: "/api/placeholder/600/400",
-        confidential: true
+        image: "/images/projects/manim.jpg"
     },
     {
         id: 6,
-        title: "Spotify MCP Server",
-        description: "Model Context Protocol for Spotify",
+        title: "Obsidian MCP Server",
+        description: "Model Context Protocol for Obsidian",
         tech: ["C#", ".NET", "Python", "Claude"],
-        image: "/api/placeholder/600/400",
-        confidential: true
+        image: "/images/projects/obs.png"
     }
 ];
 
